@@ -39,8 +39,6 @@ numbersWrapper.append(
   gradeValue
 );
 
-// gradeValue.prepend(grade);
-
 minusButton.addEventListener("click", function () {
   numberDisplay.textContent = numberDisplay.textContent - 1;
   input.value = numberDisplay.textContent;
